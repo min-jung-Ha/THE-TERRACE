@@ -1,0 +1,36 @@
+/* Noto Sans KR font 연결 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* Bona Nova SC font 연결 */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@100..900&display=swap');
+/* font-family: "Bona Nova SC", serif; font-weight: 400; font-weight: 700; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+body{
+    font-size: 100%;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #222;
+}
+
+ol,ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+img,svg,video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
